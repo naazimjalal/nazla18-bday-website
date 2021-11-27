@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Baskerville;
+    src: url(../../mediacopy/BaskervilleCyrillicInclined.otf) ;
+}
+@font-face {
+    font-family: Feelgood;
+    src: url(../../mediacopy/FeelssoGood.ttf);
+}
+@font-face {
+    font-family: Geometos;
+    src: url(../../mediacopy/Geometos.ttf);
+}
+.surprise-page{
+    background-color: rgb(66, 18, 60);
+    color: white;
+    height: 100vh;
+}
+.line1{
+    font-family: Baskerville;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+    position: relative;
+    top: 9px;
+    left: 80px;
+    width: 94%;
+
+}
+.line2{
+    font-family: Feelgood;
+    font-size: 216px;
+    text-align: center;
+    position: relative;
+    top: -51px;
+    font-weight: 900;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    color: #BF953F;
+    text-shadow: 0 0 0px #FCF6BA, 0 0 10px #FCF6BA, 0 0 0px #FCF6BA, 0 0 29px #BF953F, 0 0 46px #BF953F, 0 0 1px #BF953F, 0 0 0px #BF953F, 0 0 18px #BF953F;
+}
+.line3{
+    font-family: Geometos;
+    /* font-family: Baskerville; */
+    text-align: center;
+    padding-top: 0px;
+    font-size: 40px;
+    position: relative;
+    /* top: 9px; */
+    left: 80px;
+    width: 94%;
+}

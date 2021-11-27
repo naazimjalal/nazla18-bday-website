@@ -1,0 +1,6 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+#gallery{
+    padding: 20px 0px;
+    background-color: black;
+     
+}

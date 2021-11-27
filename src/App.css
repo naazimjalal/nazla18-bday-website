@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+  font-family: Neuzeit;
+  src: url(./media/fonts/NeuzeitGroteskCondW01Black.otf);
+}
+@font-face {
+  font-family: whirly;
+  src: url(./media/fonts/WhirlyBirdie-WideBold.otf);
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(./media/fonts/Gilroy-ExtraBold.otf);
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.HomePage{
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+}
+.img img{
+  width: 100%;
+  height: auto ;
+}
+.canvas {
+  padding: 63px 66px;
+}
+.linka{
+  color: white;
+  text-decoration: none;
+}
+.linka:hover{
+  transition: 1s;
+  color: cornflowerblue;
+}
+.title {
+  text-align: center;
+  padding-bottom: 40px;
+  color: white;
+  font-size: 20px;
+  font-family: Gilroy;
+}
+.groued-left{
+  width: 313px;
+}
+.tobeflexed{
+  display: flex;
+}
+.grouped-right{
+  padding-left: 56px;
+}
+#timer{
+  color: white;
+  background-color: rgb(121, 0, 229);
+ 
+  padding: 18px 14px;
+  font-size: 27px; 
+  border-radius: 6px;
+  font-family: Neuzeit;
+}
+#sec{
+  color: white;
+  background-color: rgb(121, 0, 229);
+  display: flex;
+  justify-content: space-evenly; 
+  font-size: 27px;
+  border-radius: 6px;
+  font-family: Neuzeit;
+}
+.tab{ 
+  background-color: rgb(41, 41, 41);
+  padding: 6px 8px;
+  border-radius: 9px;
+}
+.bday-date{
+  color: #fff;
+  font-family: Neuzeit;
+}
+body{
+  overflow-x: hidden;
+}
+html{
+  scroll-behavior: smooth;
+}
+@media (max-width: 780px) {
+  .tobeflexed{
+    display: grid;
+  }
+  .canvas{
+    padding: 0px;
+  }
+  .groued-left{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  .grouped-right{
+    padding-left: 0px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 30px;
+  }
+  .line1{
+    font-family: Baskerville;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 150%;
+    position: relative;
+    top: 9px;
+    left: 80px;
+    width: 59%;
+  }
+  .line2{
+    font-family: Feelgood;
+    font-size: 692%;
+    text-align: center;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    font-weight: 900;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(https://media.istockphoto.com/photos/gold-background-picture-id187102598?k=20&m=187102598&s=612x612&w=0&h=_EinHdV2hZ0ETBlHcXys8ybaj8zPB4wjr-LP5nGgQ5s=);
+    background-size: 808px;
+  }
+  .line3{
+    font-family: Geometos;
+    /* font-family: Baskerville; */
+    text-align: center;
+    padding-top: 0px;
+    font-size: 134%;
+    position: relative;
+    top: 38px;
+    left: 16px;
+    width: 94%;
+  }
+  
+  .MuiButtonBase-root.MuiFab-root.MuiFab-circular.MuiFab-sizeLarge.MuiFab-primary.cakeicon.css-1nacmhh-MuiButtonBase-root-MuiFab-root{
+    display: none;
+  }
+  .spotify{
+    display: none;
+  }
+}

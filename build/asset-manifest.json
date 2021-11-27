@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.403b93a7.chunk.css",
+    "main.js": "/static/js/main.d987c6a4.chunk.js",
+    "main.js.map": "/static/js/main.d987c6a4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f03b94dd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f03b94dd.js.map",
+    "static/css/2.a4070788.chunk.css": "/static/css/2.a4070788.chunk.css",
+    "static/js/2.5c1b21f6.chunk.js": "/static/js/2.5c1b21f6.chunk.js",
+    "static/js/2.5c1b21f6.chunk.js.map": "/static/js/2.5c1b21f6.chunk.js.map",
+    "static/js/3.06609412.chunk.js": "/static/js/3.06609412.chunk.js",
+    "static/js/3.06609412.chunk.js.map": "/static/js/3.06609412.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.a4070788.chunk.css.map": "/static/css/2.a4070788.chunk.css.map",
+    "static/css/main.403b93a7.chunk.css.map": "/static/css/main.403b93a7.chunk.css.map",
+    "static/js/2.5c1b21f6.chunk.js.LICENSE.txt": "/static/js/2.5c1b21f6.chunk.js.LICENSE.txt",
+    "static/media/Surprise.css": "/static/media/Geometos.f643a91a.ttf",
+    "static/media/App.css": "/static/media/WhirlyBirdie-WideBold.6ac34165.otf",
+    "static/media/Coment.css": "/static/media/Platform.88e10047.ttf",
+    "static/media/test-img.5c5ef4ee.JPG": "/static/media/test-img.5c5ef4ee.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f03b94dd.js",
+    "static/css/2.a4070788.chunk.css",
+    "static/js/2.5c1b21f6.chunk.js",
+    "static/css/main.403b93a7.chunk.css",
+    "static/js/main.d987c6a4.chunk.js"
+  ]
+}
